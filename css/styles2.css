@@ -12,26 +12,3 @@
     list-style-type: decimal;
     margin-bottom: 16px;
 }
-
-.cards {
-    display: flex;
-    flex-direction: row;
-    background: #f6f6f6;
-    padding: 15px;
-    border-bottom: 2px solid #ddd;
-    border-radius: 6px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    /* border: 1px solid #ccc;
-    padding: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    margin: 15px; */
-}
-
-.card:not(:last-of-type) {
-    border-right: 1px solid #bbb;
-}

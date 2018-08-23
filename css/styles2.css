@@ -12,3 +12,9 @@
     list-style-type: decimal;
     margin-bottom: 16px;
 }
+
+@media(max-wdith: 430px) {
+    .header-text > div {
+        text-align: center !important;
+    }
+}
